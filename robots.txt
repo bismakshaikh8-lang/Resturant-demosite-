@@ -1,0 +1,12 @@
+# https://www.robotstxt.org/robotstxt.html
+# Allow full indexing for all search engines
+
+User-agent: *
+Allow: /
+
+# Disallow private administrative or build files if any
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Host & Sitemap (Update URL when live domain is deployed)
+# Sitemap: https://yourdomain.com/sitemap.xml
